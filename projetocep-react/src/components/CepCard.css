@@ -1,0 +1,39 @@
+.cep-card {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 4px solid #f6e60c;
+}
+
+/* Título */
+.cep-card h2 {
+  margin-bottom: 15px;
+}
+
+/* Informações */
+.cep-info p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* Link */
+.cep-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #f6e60c;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: filter 0.2s ease, transform 0.1s ease;
+}
+
+.cep-link:hover {
+  filter: brightness(0.9);
+}
+
+.cep-link:active {
+  transform: scale(0.97);
+}

@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  padding: 14px;
+  font-size: 14px;
+}
+
+.app.light .footer {
+  background: #dcdde1;
+  color: #2f3640;
+}
+
+.app.dark .footer {
+  background: #000c12;
+  color: #f5f6fa;
+}

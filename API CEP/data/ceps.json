@@ -1,0 +1,26 @@
+[
+  {
+    "cep": "01001000",
+    "logradouro": "Praça da Sé",
+    "bairro": "Sé",
+    "localidade": "São Paulo",
+    "uf": "SP",
+    "ddd":"11"
+  },
+  {
+    "cep": "20040002",
+    "logradouro": "Rua da Assembleia",
+    "bairro": "Centro",
+    "localidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ddd":"21"
+  },
+  {
+    "cep": "30130010",
+    "logradouro": "Avenida Afonso Pena",
+    "bairro": "Centro",
+    "localidade": "Belo Horizonte",
+    "uf": "MG",
+    "ddd":"31"
+  }
+]

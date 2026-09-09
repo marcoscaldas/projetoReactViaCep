@@ -1,0 +1,87 @@
+.nav {
+  width: 100%;
+  background: #000000; 
+  color: #f6e60c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f6e60c;
+}
+
+/* Botão hamburguer simples */
+.btn-menu {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Menu desktop */
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu li:hover {
+  opacity: 0.7;
+}
+
+/* ----------------- */
+/* MOBILE NAV MENU   */
+/* ----------------- */
+
+@media (max-width: 768px) {
+
+  .btn-menu {
+    display: block;
+  }
+
+  /* Menu escondido no mobile */
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    background: #000000;
+    padding: 20px;
+    gap: 20px;
+  
+  }
+
+  /* Menu visível quando ativo */
+  .menu.ativo {
+    display: flex;
+    animation: slideDown 0.25s ease-out;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

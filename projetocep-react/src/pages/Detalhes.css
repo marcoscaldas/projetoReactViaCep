@@ -1,0 +1,31 @@
+/* Link de voltar */
+.voltar-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #f6e60c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+}
+
+.voltar-link:hover {
+  opacity: 0.8;
+}
+
+/* Card específico */
+.detalhes-card h1 {
+  margin-bottom: 20px;
+}
+
+/* Informações */
+.detalhes-info p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Loading */
+.detalhes-loading {
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
